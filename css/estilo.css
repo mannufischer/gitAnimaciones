@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+body {
+    font-family: 'Lato', sans-serif ;
+}
+
+header nav ul li {
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif ;
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+
+
+
+footer {
+    font-size: 1.5rem;
+}
+
+header {
+    background: #F4B3AF;
+    width:100%;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.botonera ul li {
+    display: inline-block;
+    margin-left:30px;
+    margin-right: 20px;
+}
+
+.logo {
+    width:100px;
+    height: 100px;
+    display:inline-block;
+
+}
+
+.imagenEnc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagenEncabezado {
+    height: 472px;
+    width: 769px;
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.contenedor {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: solid 2px #8B9D83;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.politica {
+    display:flex;
+}
+
+.politica1 {
+    display: flex;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+footer {
+    background-color: #A4C2A5;
+    width:100%;
+    height: 250px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.7rem;
+
+}
+h4 {
+    font-family: 'Lato', sans-serif ;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.listaCont li {
+    color: white;
+    list-style-type: none;
+
+}
+
+.listaredes li {
+    list-style-type: none;
+}
+
+.listaCategoria li {
+    color: white;
+    list-style-type: none;
+}
+
+.flexh3Carrito {
+    font-size: 2rem;
+    color:#8B9D83;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    height: 50px;
+    margin-top: 50px;
+    padding: 5px;
+    font-weight: bold;
+    border: solid 2px #8B9D83;
+    border-radius: 4px;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.flexh3Carrito {
+    display: inline-block;
+}
+
+
+.flexTienda {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: space-around;
+}
+
+.imagenTienda {
+    height: 472px;
+    width: 769px;
+    margin: 60px;
+    border-radius: 5%;
+
+}
+
+.redondo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: #A24936;
+    font-size: 2rem;
+    border-radius: 50%;
+    font-weight: bold;
+    border-color: #8B9D83;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.botonCompra  {
+    font-size: 2rem;
+    color:#8B9D83;
+    display: flex;
+    height: 50px;
+    margin-left: 370px;
+    padding: 2px;
+    font-weight: bold;
+    border: solid 2px #8B9D83;
+    border-radius: 4px;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.botonCompra {
+    display: inline-block;
+}
+
+
+.formularioTienda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin:100px;
+    font-size: 1rem;
+    
+}
+
+
+.boton {
+    color: black;
+    background-color: #D3E4CD;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.campoTienda { 
+    display: inline-block;
+    width: 1000px;
+    padding: 10px;
+    margin: 10px auto;
+    border: black solid 2px;
+    border-radius: 4px;
+}
+
+.comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-right: 370px;
+    margin-bottom: 200px;
+    font-size: 1rem;
+}
+
+
+.contactanosHtml {
+    font-size: 2rem;
+    padding: 20px;
+    display: inline-block;
+    border: #A24936 solid 1px;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.liContacto {
+    list-style-type: none;
+    margin:20px;
+}
+
+.flexPreguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoCentral {
+    font-size: 2rem;
+    display: inline-block;
+    background-color: #95a88e;
+    border-radius: 4px;
+    color: white;
+    margin-left:5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+     -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.articulos {
+    height: 315px;
+    width: 560px;
+    margin: 20px;
+    border-radius: 5%;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.textoPregunta {
+    width: 700px;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 10px;
+    border: #A24936 solid 1px;
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+}
+
+
+.flexProductos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+} 
+
+.masInformacion {
+    cursor: pointer;
+    font-size: 2rem;
+    color: rgb(30, 30, 221);
+} 
+
+.imagProductos {
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 5%;
+    border-radius: 4px;
+}
+
+/*Grid Index*/
+
+.gridPadre {
+    display:grid;
+    grid-template-areas: 
+    "headerIndex headerIndex headerIndex headerIndex"
+    "imagenIndex imagenIndex imagenIndex imagenIndex "
+    "seccionAindex  seccionAindex seccionAindex seccionAindex"
+    "seccionBindex seccionBindex seccionCindex seccionCindex"
+    "footer footer footer footer"
+    ;
+}
+
+.headerIndex {
+    grid-area: headerIndex;
+}
+
+.imagenIndex {
+    grid-area: imagenIndex;
+}
+
+.seccionAindex {
+    grid-area: seccionAindex;
+}
+
+.seccionBindex {
+    grid-area: seccionBindex;
+}
+
+.seccionCindex {
+    grid-area: seccionCindex;
+}
+
+
+.footerIndex {
+    grid-area:footer;
+}
+
+@media (min-width:700px) and (max-width:1100px) {
+    .gridPadre {
+        display: grid;
+        grid-template-areas: 
+        "headerIndex headerIndex"
+        "imagenIndex imagenIndex"
+        "seccionAindex seccionAindex"
+        "seccionBindex seccionBindex"
+        "seccionCindex seccionCindex"
+        "footer footer"
+        ;
+    }
+
+}
+
+@media (max-width:699px) {
+    .gridPadre {
+        display: grid;
+        grid-template-areas: 
+        "headerIndex"
+        "imagenIndex"
+        "seccionAindex"
+        "seccionBindex"
+        "seccionCindex"
+        "footer"
+        ;
+    }
+}
+
+.gridpadreTienda {
+    display:grid;
+    grid-template-areas: 
+    "headerTienda headerTienda headerTienda"
+    "carritoTienda carritoTienda carritoTienda "
+    "imagendeTienda imagendeTienda imagendeTienda"
+    "botondeCompra botondeCompra botondeCompra"
+    "gridformularioTienda gridformularioTienda gridformularioTienda "
+    "botontiendaComprarahora botontiendaComprarahora botontiendaComprarahora"
+    "footerTienda footerTienda footerTienda"
+    ;
+}
+.headerTienda {
+    grid-area: headerTienda;
+}
+
+.carritoTienda {
+    grid-area:carritoTienda;
+}
+
+.imagendeTienda {
+    grid-area:imagendeTienda;
+}
+
+.botondeCompra {
+    grid-area:botondeCompra;
+}
+
+.gridformularioTienda {
+    grid-area:gridformularioTienda;
+}
+
+.botontiendaComprarahora {
+    grid-area:botontiendaComprarahora; 
+}
+
+.footerTienda {
+    grid-area:footerTienda;
+}
+
+@media (min-width:700px) and (max-width:1100px) {
+    .gridpadreTienda {
+        display: grid;
+        grid-template-areas: 
+        "headerTienda headerTienda"
+        "carritoTienda carritoTienda "
+        "imagendeTienda imagendeTienda"
+        "botondeCompra botondeCompra"
+        "gridformularioTienda gridformularioTienda "
+        "botontiendaComprarahora botontiendaComprarahora"
+        "footerTienda footerTienda"
+        ;
+    }
+}
+
+@media (max-width:699px) {
+    .gridpadreTienda {
+        display: grid;
+        grid-template-areas: 
+        "headerTienda"
+        "carritoTienda"
+        "imagendeTienda"
+        "botondeCompra"
+        "gridformularioTienda"
+        "botontiendaComprarahora"
+        "footerTienda"
+        ;
+    }
+}
+
+.gridpadreProductos {
+    display: grid;
+    grid-template-areas: 
+    "headerProductos headerProductos headerProductos"
+    "tituloNuestrosproductos tituloNuestrosproductos tituloNuestrosproductos"
+    "productosBloque1 productosBloque1 productosBloque1"
+    "productosBloque2 productosBloque2 productosBloque2"
+    "productosBloque3 productosBloque3 productosBloque3 "
+    "productosBloque4 productosBloque4 productosBloque4"
+    "footerProductos footerProductos footerProductos"
+    ;
+}
+
+.headerProductos {
+    grid-area: headerProductos;
+}
+
+.tituloNuestosproductos {
+    grid-area: tituloNuestosproductos;
+}
+
+.productosBloque1 {
+    grid-area:productosBloque1;
+}
+
+.productosBloque2 {
+    grid-area:productosBloque2;
+}
+
+.productosBloque3 {
+    grid-area:productosBloque3;
+}
+
+.productosBloque4 {
+    grid-area:productosBloque4;
+}
+
+.footerProductos {
+    grid-area:footerProductos;
+}
+
+@media (min-width:700px) and (max-width:1100px) {
+    .gridpadreProductos {
+        display: grid;
+        grid-template-areas: 
+        "headerProductos headerProductos"
+        "tituloNuestrosproductos tituloNuestrosproductos"
+        "productosBloque1 productosBloque1"
+        "productosBloque2 productosBloque2"
+        "productosBloque3 productosBloque3 "
+        "productosBloque4 productosBloque4"
+        "footerProductos footerProductos"
+        ;
+    }
+}
+
+@media (max-width:699px) {
+    .gridpadreProductos {
+        display: grid;
+        grid-template-areas: 
+        "headerProductos"
+        "tituloNuestrosproductos"
+        "productosBloque1"
+        "productosBloque2"
+        "productosBloque3"
+        "productosBloque4"
+        "footerProductos"
+        ;
+        ;
+    }
+}
+
+
+.gridpadreContacto {
+    display: grid;
+    grid-template-areas: 
+    "headerContacto headerContacto headerContacto"
+    "cuadroContacto cuadroContacto cuadroContacto"
+    "formularioContacto formularioContacto formularioContacto"
+    "footerContacto footerContacto footerContacto"
+    ;
+}
+
+.headerContacto {
+    grid-area:headerContacto;
+}
+
+.cuadroContacto {
+    grid-area: cuadroContacto;
+}
+
+.formularioContacto {
+    grid-area:formularioContacto;
+}
+
+.footerContacto {
+    grid-area:footerContacto;
+}
+
+@media (min-width:700px) and (max-width:1100px) {
+    .gridpadreContacto {
+        display: grid;
+        grid-template-areas: 
+        "headerContacto headerContacto"
+        "cuadroContacto cuadroContacto"
+        "formularioContacto formularioContacto"
+        "footerContacto footerContacto"
+        ;
+    }
+}
+
+@media (max-width:699px) {
+    .gridpadreContacto {
+        display: grid;
+        grid-template-areas: 
+        "headerContacto"
+        "cuadroContacto"
+        "formularioContacto"
+        "footerContacto"
+        ;
+        ;
+    }
+}
+
+
+.gridpadreConsejos {
+    display: grid;
+    grid-template-areas: 
+    "headerConsejos headerConsejos headerConsejos"
+    "pregunta1 pregunta1 pregunta1 "
+    "footerConsejos footerConsejos footerConsejos"
+    ;
+}
+
+.headerConsejos {
+    grid-area:headerConsejos;
+}
+
+.pregunta1 {
+    grid-area: pregunta1;
+}
+
+.footerConsejos {
+    grid-area: footerConsejos;
+}
+
+@media (min-width:700px) and (max-width:1100px) {
+    .gridpadreConsejos {
+        display: grid;
+        grid-template-areas: 
+        "headerConsejos headerConsejos"
+        "pregunta1 pregunta1 "
+        "footerConsejos footerConsejos"
+        ;
+    }
+}
+
+@media (max-width:699px) {
+    .gridpadreConsejos {
+        display: grid;
+        grid-template-areas: 
+        "headerConsejos"
+        "pregunta1"
+        "footerConsejos"
+        ;
+        ;
+    }
+}
